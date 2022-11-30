@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+*{  
+    padding: 0%;
+    margin: 0%;
+    margin-top: 0px;
+}
+
+
+body{
+    background-image: url(../img/R.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    width: 100vw;
+    text-align: center;
+}
+
+
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10 74 4);
+    color: rgb(239,184,16);
+    padding: 1em;
+    font-style: italic;
+}   
+
+input{
+    border-radius: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px;
+    background-color: yellowgreen;
+    color:rgb(0, 0, 0);
+}
+span{
+    color:rgb(0, 0, 0);
+}
+
+.balotas {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: cornsilk;
+}
+.balotas2 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: cornsilk;
+}
+.balotas3 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: cornsilk;
+}
+.balotas4 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: cornsilk;
+}
+.balotas5 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: cornsilk;
+}
+.balotas6 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: cornsilk;
+}
+
+
+.balota-1 {
+    background-image: url(../img/trebol-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'gotham-medium';
+    width: 4em;
+    padding-top: 54px;
+    padding-left: 62px;
+    height: 4em;
+    color: yellow;
+}
+.balota-2 {
+    background-image: url(../img/trebol-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'gotham-medium';
+    width: 4em;
+    padding-top: 54px;
+    padding-left: 62px;
+    height: 4em;
+    color: yellow;
+}
+.balota-3 {
+    background-image: url(../img/trebol-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'gotham-medium';
+    width: 4em;
+    padding-top: 54px;
+    padding-left: 62px;
+    height: 4em;
+    color: yellow;
+}
+.balota-4 {
+    background-image: url(../img/trebol-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'gotham-medium';
+    width: 4em;
+    padding-top: 54px;
+    padding-left: 62px;
+    height: 4em;
+    color: yellow;
+}
+
+.balota-5 {
+    background-image: url(../img/trebol-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'gotham-medium';
+    width: 4em;
+    padding-top: 54px;
+    padding-left: 62px;
+    height: 4em;
+    color: yellow;
+}
+.balota-6 {
+    background-image: url(../img/trebol-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'gotham-medium';
+    width: 4em;
+    padding-top: 54px;
+    padding-left: 62px;
+    height: 4em;
+    color: yellow;
+}
+
+.main-boton {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+button.boton {
+    position: absolute;
+    top: 62rem;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 105px;
+    height: 50px;
+    color:rgb(239,184,16);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    background: rgb(25, 78, 12);
+    border-radius: 30px;
+    font-style: italic;
+}
+
+.boton::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    border-style: solid;
+    border-color: rgb(10 74 4);
+    border-width: 82px 100px;
+    z-index: -1;
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: left;
+}
+
+.boton:hover::before {
+    border-color: rgb(28, 59, 3);
+    transform: rotate(60deg);
+}
+
+.balotas-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 40px;
+height: 2rem;
+
+}
